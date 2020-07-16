@@ -1,0 +1,972 @@
+/**
+* vBulletin 3.8.7 CSS
+* Style: 'www.a7la-7ekaya.com 2013'; Style ID: 91
+*/
+
+body
+{
+	background: #E1E1E2;
+	color: #146582;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 0px 0px 0px 0px; 
+	padding: 0px;
+	
+}
+a:link, body_alink
+{
+	color: #146582;
+	text-decoration: none;
+}
+a:visited, body_avisited
+{
+	color: #146582;
+	text-decoration: none;
+}
+a:hover, a:active, body_ahover
+{
+	color: #0c8ab7;
+	text-decoration: none;
+}
+.page
+{
+	background: #FFFFFF;
+	color: #146582;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.page a:link, .page_alink
+{
+	text-decoration: none;
+}
+.page a:visited, .page_avisited
+{
+	text-decoration: none;
+}
+.page a:hover, .page a:active, .page_ahover
+{
+	text-decoration: none;
+}
+td, th, p, li
+{
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #dbdbdb;
+}
+.tcat
+{
+	background: #176d8c url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb10.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	text-shadow: 0 1px 0 #176d8c ;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #33CCFF;
+	text-decoration: none;
+}
+.thead
+{
+	background: #d2d2d2 url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb11.gif) repeat-x top left;
+	color: #176d8c;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	text-shadow: 0 1px 0 #FFF;
+}
+.thead a:link, .thead_alink
+{
+	color: #176d8c;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #176d8c;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #0c8ab7;
+}
+.tfoot
+{
+	background: #d2d2d2 url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb11.gif) repeat-x top left;
+	color: #176d8c;
+	text-shadow: 0 1px 0 #FFF;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #176d8c;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #176d8c;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #0c8ab7;
+}
+.alt1, .alt1Active
+{
+	background: #e7e6e6;
+	color: #176d8c;
+	font: bold 16px arial, helvetica,verdana;
+	text-shadow: 0 1px 0 #FFF;
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink
+{
+	color: #176d8c;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited
+{
+	color: #176d8c;
+}
+.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover
+{
+	color: #0c8ab7;
+}
+.alt2, .alt2Active
+{
+	background: #e2e2e2;
+	color: #176d8c;
+	font: bold 16px arial, helvetica,verdana;
+	text-shadow: 0 1px 0 #FFF;
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink
+{
+	color: #176d8c;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited
+{
+	color: #176d8c;
+}
+.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover
+{
+	color: #00bbff;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #FAFAFA;
+	color: #176d8c;
+	font: bold 16px arial, helvetica,verdana;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #176d8c;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #176d8c;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #00bbff;
+}
+textarea, .bginput
+{
+	color: #176d8c;
+	font: 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	background: #176d8c url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb10.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #666666;
+}
+.navbar
+{
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #176d8c;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #0c8ab7;
+	color: #E0E0F6;
+}
+.fjdpth1
+{
+	background: #0c8ab7;
+	color: #E0E0F6;
+}
+.fjdpth2
+{
+	background: #176d8c;
+	color: #E0E0F6;
+}
+.fjdpth3
+{
+	background: #176d8c;
+	color: #E0E0F6;
+}
+.fjdpth4
+{
+	background: #0c8ab7;
+	color: #E0E0F6;
+}
+.panel
+{
+	background: #f5f5f5;
+	color: #000000;
+}
+.panelsurround
+{
+	background: #f5f5f5;
+	color: #000000;
+}
+legend
+{
+	background: #176d8c url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb10.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #176d8c url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb10.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding:5px;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.vbmenu_popup
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #71b7d0;
+}
+.vbmenu_option
+{
+	background: #d2d2d2 url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb11.gif) repeat-x top left;
+	color: #176d8c;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #176d8c;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #176d8c;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #176d8c;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #176d8c url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb10.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+
+
+.postbit-mini-box {
+background:#ECECEC;
+	border:1px;
+	border-color:#D4D4D4;
+	border-style:solid;
+    border-left:1px;
+    border-left-color:#D4D4D4;
+    border-left-style:solid;
+	border-bottom:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#D4D4D4;
+	color:#333;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	padding:5px 5px 5px 5px;
+	margin-top:2px;
+	}
+
+
+.myavatar:hover { 
+ transition: all 3s ease; 
+-webkit-transition: all 3s ease; 
+-moz-transition: all 3s ease; transform:rotate(360deg); 
+-moz-transform:rotate(360deg); 
+-webkit-transform:rotate(360deg); position:relative;
+}
+
+
+/* ***** panoramaharem style ***** */
+.bbcquote{
+    background: #FFFFFF;
+    border: 1px solid #C2CFDF;
+    border-top: 4px solid #C2CFDF;
+    color: #333366;
+    padding: 5px;
+    font-size: 12px;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-weight:bold;
+}
+
+.bbcquotetitle{
+    font-weight: bold;
+    font-size: 12px;
+    border: 0px;
+    border-bottom: 1px dashed #003366;
+    color: #003366;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-weight:bold;
+}
+
+.bbcphp{
+    background: #FFFFFF;
+    border: 1px solid #FFCC33;
+    border-top: 4px solid #FFCC33;
+    color: #333366;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.bbcphptitle{
+    font-weight: bold;
+    font-size: 10px;
+    border: 0px;
+    border-bottom: 1px dashed #FF9900;
+    color: #FF9900;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+.bbchtml{
+    background: #FFFFFF;
+    border: 1px solid #339900;
+    border-top: 4px solid #339900;
+    color: #000000;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.bbchtmltitle{
+    font-weight: bold;
+    font-size: 10px;
+    border: 0px;
+    border-bottom: 1px dashed #006600;
+    color: #006600;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+.bbccode{
+    background: #FFFFFF;
+    border: 1px solid #FF3300;
+    border-top: 4px solid #FF3300;
+    color: #000000;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.bbccodetitle{
+    font-weight: bold;
+    font-size: 10px;
+    border: 0px;
+    border-bottom: 1px dashed #CC0000;
+    color: #CC0000;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}  
+
+
+
+
+.icon-down{
+		border:solid 1px #a0bfff; 
+		background:#eef4d3 url(http://i11.servimg.com/u/f11/17/99/17/05/downlo10.png) 8px 6px no-repeat;
+		color:#6b800d;
+		font-weight:bold;
+		padding:4px;
+		text-align:right;
+                width: 90%;
+	}
+
+.icon-pass{
+		border:solid 1px #90ac13; 
+		background:#eef4d3 url(http://i11.servimg.com/u/f11/17/99/17/05/lock_o10.png) 8px 6px no-repeat;
+		color:#6b800d;
+		font-weight:bold;
+		padding:4px;
+		text-align:right;
+                width: 90%;
+	}
+/* Postbit_Userinfo
+****************************************************/
+.infouser {
+	font: normal 11px "Tahoma";
+	color: #0a5d7b;
+	background-color: #FFFFFF;
+	letter-spacing: 0px;
+	vertical-align: middle;
+	padding: 1px 4px;
+	border:1px dotted #FFFFFF;
+	margin: 0px 0px 2px;
+	_margin: 0px 0px 0px;
+}
+.avataruser img {
+	border:1px dotted #FFFFFF;
+	margin: 10px auto 0;
+	padding: 5px;
+}
+****************************************************/
+
+
+.postbit-mini-box {
+background:#ECECEC;
+	border:1px;
+	border-color:#D4D4D4;
+	border-style:solid;
+    border-left:1px;
+    border-left-color:#D4D4D4;
+    border-left-style:solid;
+	border-bottom:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#D4D4D4;
+	color:#333;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	padding:5px 5px 5px 5px;
+	margin-top:2px;
+	}
+
+
+
+
+
+
+
+
+.myavatar:hover { 
+ transition: all 3s ease; 
+-webkit-transition: all 3s ease; 
+-moz-transition: all 3s ease; transform:rotate(360deg); 
+-moz-transform:rotate(360deg); 
+-webkit-transform:rotate(360deg); position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+html, body {
+	margin: 0px;
+	padding: 0px;
+	direction: rtl;
+
+
+}
+input, select, textarea {
+	outline: none;
+	cursor: pointer;
+	margin: 2px;
+}
+ol, ul, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-position: inside;
+}
+h1 { font-size: 12px; }
+img { border: none; }
+input[type=text], textarea, select, input[type=password] {
+
+	color: #a4a2a7;
+	margin: 0px 2px;
+	padding: 4px 7px;
+	font-family: Tahoma;
+	font-size: 12px;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+input[type=submit], .button, input[type=reset], button {
+
+	color: #FFF;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin: 0px;
+	padding: 5px 8px !important;
+	border: none !important;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+.button:hover {
+	background: #6848ba url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb11.gif) repeat-x top left;
+text-shadow: 0 1px 0 #FFF;
+color:#000;
+}
+fieldset {
+	font: normal 9pt Tahoma, Geneva, sans-serif !important;
+	margin-bottom: 6px;
+	border: 1px #E6E6E6 solid;
+	background: #fefefe;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+fieldset a { font: bold 9pt Tahoma, Geneva, sans-serif !important }
+legend {
+
+	color: #FFF;
+	font-family: Tahoma;
+	font-size: 12px;
+	padding: 4px 8px !important;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+legend { text-shadow: rgba(0,0,0,0.5) 0 1px 0 !important; }
+select { text-shadow: none !important; }
+a {
+	outline: 0px;
+	text-decoration: none;
+}
+::selection {
+	background: #176d8c;
+	color: #FFF;
+	text-shadow: #4e3390 0px 1px 0px;
+}
+::-moz-selection {
+ background: #176d8c;
+ color: #FFF;
+ text-shadow: #4e3390 0px 1px 0px;
+}
+* {
+	outline: none 0px !important;
+	text-decoration: none !important;
+}
+hr {
+	background: #E6E6E6;
+	border-color: #E6E6E6;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb16.png);
+	background-color:#FFF;
+	background-repeat:repeat-x;
+	height:665px;
+}
+
+.Mrsavb_Header
+{
+	height:268px;
+	position:relative;
+}
+
+.Mrsavb_Logo
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb15.png);
+	height:268px;
+	width:384px;
+	float:right;
+}
+
+.Mrsavb_Navnar_vB_Links
+{
+	height:21px;
+	position:absolute;
+	width:100%;
+	top: 13px;
+}
+
+.Mrsavb_Navnar_links
+{
+	height:30px;
+	position:absolute;
+	width:100%;
+	top: 5px;
+}
+
+.Mrsavb_Footer
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb19.gif);
+	background-repeat:repeat-x;
+	height:284px;
+	position:relative;
+
+}
+
+.Mrsavb_Footer_Right
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb18.gif);
+	height:284px;
+	width:428px;
+	float:right;
+	position:relative;
+}
+
+.Mrsavb_Footer_Left
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb17.gif);
+	height:284px;
+	width:331px;
+	float:left;
+}
+
+.Mrsavb_Navbar_Buttons
+{
+	width:800px;
+	height:59px;
+	position:absolute;
+	right: 23px;
+	top: 188px;
+}
+
+.Mrsavb_Navbar_Buttons2
+{
+	width:154px;
+	height:30px;
+	position:absolute;
+	left: 9px;
+	top: 209px;
+}
+
+.Mrsavb_Navbar_Buttons ul{
+	list-style-type: none;
+	background-position: right center;
+	width:115px;
+	float: right;
+	margin: 0px;
+	padding: 5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+
+}
+.Mrsavb_Navbar_Buttons ul li{
+	background: url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb14.png) no-repeat -0px -0px;	line-height: 25px;
+	text-align: center;
+	width:115px;
+	height:59px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+}
+.Mrsavb_Navbar_Buttons ul li a{
+	font-family: tahoma;
+	font-size: 8pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #983F43;
+	width:115px;
+	height:59px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#15627e;
+	font-size:12px;
+	font-weight:bold;
+	line-height:5;
+	display:block;
+
+}
+
+.Mrsavb_Navbar_Buttons ul li a:hover
+{
+	background: url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb13.png) no-repeat -130px -0px;	line-height: 25px;
+	text-align: center;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+	display:block;
+	width:115px;
+	height:59px;
+	line-height:5;
+}
+
+.Mrsavb_Welcome_Register
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb12.png);
+	height:28px;
+	width:912px;
+	position:absolute;
+	right:30px;
+	top:282px;
+}
+
+.Mrsavb_Welcome_Register_Buttons1:hover
+{
+	background: url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb11.png) no-repeat -126px -0px;	line-height: 25px;
+}
+
+.Mrsavb_Welcome_Register_Buttons2:hover
+{
+	background: url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb10.png) no-repeat -6px -0px;	line-height: 25px;
+}
+
+.Mrsavb_Network_Links_Title
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb16.gif);
+	height:21px;
+	width:143px;
+	position:absolute;
+	right:30px;
+	top:325px;
+}
+
+.Mrsavb_Network_Links
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb15.gif);
+	background-repeat:repeat-x;
+	height:77px;
+	width:98%;
+	position:absolute;
+	right: 8px;
+	top: 348px;
+
+}
+
+.Mrsavb_Network_Links_Right
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb14.gif);
+	height:77px;
+	width:31px;
+	float:right;
+}
+
+.Mrsavb_Network_Links_Left
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb13.gif);
+	height:77px;
+	width:31px;
+	float:left;
+}
+	
+.Mrsavb_You_Here_On_Title
+{
+	background-image:url(http://i11.servimg.com/u/f11/17/99/17/05/mrsavb12.gif);
+	height:22px;
+	width:103px;
+	position:absolute;
+	right:19px;
+	top:447px;
+}
+
+.Mrsavb_You_Here_On
+{
+	height:47px;
+	width:85%;
+	position:absolute;
+	top:433px;
+	left:20px
+}
+
+.Mrsavb_Network_Links_List
+{
+	width:964px;
+	height:67px;
+	float:right;
+	position:absolute;
+	right:16px;
+	top:7px;
+}
+
+.Mrsavb_Network_Links_List ul{
+	list-style-type: none;
+	background-position: right center;
+	width:120px;
+	float:right;
+	margin:0px;
+	padding:0px;
+
+}
+.Mrsavb_Network_Links_List ul li{
+	line-height: 18px;
+	text-align: right;
+
+}
+.Mrsavb_Network_Links_List ul li a{
+
+	font-family: tahoma;
+	font-size:11px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #176d8c;
+	font-weight: bold;
+	line-height:1.5;
+	padding-right:12px;
+}
+.Mrsavb_Network_Links_List ul li a:hover{
+	color: #2e2e2e;
+	padding-right:10px;
+}
+
+
+.Mrsavb_Footer_Right_Links_List
+{
+	width:489px;
+	height:167px;
+	float:right;
+	position:absolute;
+	right:16px;
+	top:67px;
+}
+
+.Mrsavb_Footer_Right_Links_List ul{
+	list-style-type: none;
+	background-position: right center;
+	width:140px;
+	float:right;
+	margin:0px;
+	padding:0px;
+
+}
+.Mrsavb_Footer_Right_Links_List ul li{
+	line-height: 18px;
+	text-align: right;
+
+}
+.Mrsavb_Footer_Right_Links_List ul li a{
+	font-family: tahoma;
+	font-size:11px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+	line-height:1.5;
+	padding-right:12px;
+}
+.Mrsavb_Footer_Right_Links_List ul li a:hover{
+	color: #00bbff;
+	padding-right:10px;
+}
+
+/**www.a7la-7ekaya.com**\

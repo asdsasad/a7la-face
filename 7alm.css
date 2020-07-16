@@ -1,0 +1,27 @@
+﻿.borderwrap.member-list{margin-bottom:4em}
+
+.maintitle:after{clear:both;content:".";display:block;height:0;visibility:hidden}
+.div.maintitle{background-color:#303b4a;background-image:url(http://illiweb.com/fa/empty.gif);background-repeat:repeat-x;color:#fff;padding:8px 8px 8px 15px;vertical-align:middle;zoom:1}
+div.maintitle div.toggle,div.maintitle h2,div.maintitle h3{font-size:13px}
+.maintitle.floated div.toggle,.maintitle.floated h2,.maintitle.floated h3{float:right}.maintitle div.toggle{font-weight:700}
+* html div.maintitle{height:30px;padding:2px 15px 0 2px}
+.maintitle .right,.maintitle .right a,.maintitle .titletext,.maintitle .titletext a{color:#fff}
+
+.memberlist_row_1{background-color:#e4e6e9}
+
+.ipbform fieldset{border:1px solid #000;margin:.5em;padding:0 1em 1em}.ipbform fieldset legend{color:#222;font-weight:700;margin:0;padding:0 .5em}.ipbform fieldset label{display:block}
+
+.ipbform2 dl dd input{margin:0}.ipbform2 dl dd input:after{content:' ';white-space:pre}.ipbform2 dl dd input[type="radio"]{margin:0 0 0 5px}.ipbform2 dl dd .radio-rtl:before{content:' ';white-space:pre}
+
+.login fieldset.formbuttonrow{margin:0;padding:5px}
+.module .box-content.ipbform fieldset.formbuttonrow{padding:5px!important;text-align:center}
+
+div.centerer{display:table;margin:0 auto;text-align:center;white-space:nowrap!important}
+
+.centerer del{display:inline-block;text-decoration:none}
+
+.search-filter{float:left;font-size:11px;margin:5px}.search-filter dd,.search-filter dt{float:left;margin:3px 3px 0;vertical-align:middle}.search-filter select{font-size:10px}
+
+.box-content div.agreement{padding:.5em}
+
+.clearfix:after,.ipbform2 dl:after,.maintitle:after{clear:both;content:".";display:block;height:0;visibility:hidden}
